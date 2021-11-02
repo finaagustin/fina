@@ -1,0 +1,15 @@
+
+.navbar-brand{
+	position: absolute;
+	width: 194px;
+	height: 52px;
+	background-image: url(img/riseloka.png);
+}
+
+.jumbotron{
+	background-image: url(img/banner.png);
+	background-size: cover;
+	width: 1920px;
+	height: 1080px;
+	margin-top: -70px;
+}
