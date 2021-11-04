@@ -29,13 +29,11 @@
     text-align: left;
 }
 
-.banner{
+.section1 .banner{
     position: absolute;
-    width: 675px;
-    height: 661px;
-    left: 1081px;
-    top: 3165px;
-    background: url(img/gambar1.png);
+    width: 590px;
+    bottom: -600px;
+    left: 700px;
 }
 
 /*overview*/
