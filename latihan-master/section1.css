@@ -1,0 +1,124 @@
+.section1 {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 100px;
+    align-items: center;
+}
+
+.section1 .content {
+    display: block;
+}
+
+.section1 .content h5 {
+    font-family: Gilroy-Bold;
+    font-size: 80px;
+    line-height: 94px;
+    color: #4C3494;
+    position: absolute;
+    width: 722px;
+    height: 198px;
+    left: 237px;
+    top: 1357px;
+}
+
+.section1 .content p {
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+}
+
+.banner{
+    position: absolute;
+    width: 675px;
+    height: 661px;
+    left: 1081px;
+    top: 3165px;
+    background: url(img/gambar1.png);
+}
+
+/*overview*/
+.overview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 150px;
+}
+
+.overview .item-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid rgba(0, 0, 0, .2);
+}
+
+.overview .item-overview:nth-last-child(1) {
+    border: none;
+}
+
+.overview .item-overview1 img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.overview .item-overview1 h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.overview .item-overview1 p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+    line-height: 130%;
+}
+
+.overview .item-overview2 img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.overview .item-overview2 h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.overview .item-overview2 p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+    line-height: 130%;
+}
+
+.overview .item-overview3 img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.overview .item-overview3 h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.overview .item-overview3 p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+    line-height: 130%;
+}

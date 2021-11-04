@@ -1,15 +1,253 @@
 
-.navbar-brand{
-	position: absolute;
-	width: 194px;
-	height: 52px;
-	background-image: url(img/riseloka.png);
+.navbar{
+    position: relative;
+    z-index: 1;
 }
 
-.jumbotron{
-	background-image: url(img/banner.png);
-	background-size: cover;
-	width: 1920px;
-	height: 1080px;
-	margin-top: -70px;
+.navbar .nav-item{
+    background-color: grey;
 }
+
+.navbar-brand{
+    width: 194px;
+    height: 53px;
+    background: url(img/riseloka.png);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/*SEARCH*/
+nav ul li:nth-last-child(1) a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 10px;
+}
+
+nav ul li:nth-last-child(1) a img {
+    width: 25px;
+    height: 25px;
+}
+/*SEARCH AKHIR*/
+
+/*JUMBOTRON*/
+
+.jumbotron{
+    background-image: url(img/banner.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.jumbotron .display-4{
+    font-family: Gilroy-Bold,sans-serif;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.jumbotron .lead{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+/*JUMBOTRON AKHIR*/
+
+/*BUTTON*/
+.container button {
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.container button:hover {
+    background-color: white;
+    color: #4C3494;
+}
+/*BUTTON AKHIR*/
+
+/*DEKORASI*/
+.dekorasi1{
+    width: 80px;
+    height:80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.dekorasi2{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 1000px;
+    bottom: 450px;
+}
+/*DEKORASI AKHIR*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DEKSTOP VERSION*/
+
+@media (min-width: 992px) { 
+
+/*NAVBAR*/
+.navbar{
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.navbar .nav-item{
+    background-color: transparent;
+}
+
+.navbar-brand{
+    width: 194px;
+    height: 53px;
+    background: url(img/riseloka.png);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.nav-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*NAVBAR AKHIR*/
+
+/*SEARCH*/
+nav ul li:nth-last-child(1) a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+nav ul li:nth-last-child(1) a img {
+    width: 25px;
+    height: 25px;
+}
+/*SEARCH AKHIR*/
+
+
+/*JUMBOTRON*/
+
+.jumbotron{
+    background-image: url(img/banner.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.jumbotron .display-4{
+    font-family: Gilroy-Bold,sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 155px;
+    font-weight: bold;
+}
+
+.jumbotron .lead{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 20px;
+}
+/*JUMBOTRON AKHIR*/
+
+
+/*BUTTON*/
+.container button {
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+    text-align: center;
+    margin-left: 465px;
+    margin-top: 20px;
+}
+
+.container button:hover {
+    background-color: white;
+    color: #4C3494;
+}
+/*BUTTON AKHIR*/
+
+/*DEKORASI*/
+.dekorasi1{
+    width: 150px;
+    height:150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.dekorasi2{
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    right: 1000px;
+    bottom: 450px;
+}
+/*DEKORASI AKHIR*/
+
+
